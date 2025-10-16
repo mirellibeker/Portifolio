@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background-color: #ebc8df;
+}
+ 
+button{
+    background-color: rgb(224, 50, 158);
+    color : rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 8px;
+    transition: all 0.4s ease;
+    border: none;
+    width: 100px;
+}
+button:hover{
+    background-color: rgb(226, 98, 209);
+    color : rgb(255, 255, 255);
+    cursor: pointer;
+}
